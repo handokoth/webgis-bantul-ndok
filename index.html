@@ -118,7 +118,7 @@
             }
         });
         /* memanggil data geojson polyline */
-        $.getJSON("data/jalan.geojson", function (data) {
+        $.getJSON("Data/JALAN.geojson", function (data) {
             jalanutama.addData(data);
             map.addLayer(jalanutama); //jalanutama ditampilkan ketika halaman dipanggil
         });
@@ -138,7 +138,7 @@
             }
         });
         /* memanggil data geojson point */
-        $.getJSON("data/BANGUNAN.geojson", function (data) {
+        $.getJSON("Data/BANGUNAN.geojson", function (data) {
             bangunan.addData(data);
             map.addLayer(bangunan); //bangunan ditampilkan ketika halaman dipanggil
         });
